@@ -5,8 +5,7 @@ This library allows you to access individual files within a Ren'Py archive file.
 ## Usage
 
 ```csharp
-using Stream archiveStream = File.OpenRead(path);
-RenPyArchive archive = new RenPyArchive(archiveStream);
+using RenPyArchive archive = new RenPyArchive(File.OpenRead(path));
 
 // Fetch a file
 using Stream fileStream = archive.GetFile("file.rpy");
