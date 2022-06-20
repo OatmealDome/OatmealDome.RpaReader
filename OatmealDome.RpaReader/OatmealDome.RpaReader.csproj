@@ -4,6 +4,12 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+
+        <PackageId>OatmealDome.RpaReader</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>OatmealDome</Authors>
+        <Description>Library for accessing Ren'Py archive files.</Description>
+        <RepositoryUrl>https://github.com/OatmealDome/OatmealDome.RpaReader</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
