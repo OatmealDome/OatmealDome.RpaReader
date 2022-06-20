@@ -9,6 +9,7 @@
     <ItemGroup>
       <PackageReference Include="OatmealDome.BinaryData" Version="1.0.0" />
       <PackageReference Include="Razorvine.Pickle" Version="1.2.1" />
+      <PackageReference Include="SharpCompress" Version="0.32.0" />
     </ItemGroup>
 
 </Project>
