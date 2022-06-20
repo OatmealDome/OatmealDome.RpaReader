@@ -1,6 +1,6 @@
 namespace OatmealDome.RpaReader;
 
-public class RpaReaderException : Exception
+public sealed class RpaReaderException : Exception
 {
     public RpaReaderException(string message) : base(message)
     {
